@@ -23,3 +23,6 @@ jobs:
       # Runs a list files command
       - name: Run a list files
         run: ls -la
+
+      - name: teste do julio
+        run: ls
