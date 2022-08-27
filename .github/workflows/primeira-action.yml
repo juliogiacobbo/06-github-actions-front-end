@@ -25,4 +25,10 @@ jobs:
         run: ls -la && ls
 
       - name: teste do julio
-        run: git --version && git config --get user.name && git config --get user.email
+        run: git --version
+
+      - name: teste do julio
+        run: git --get user.email
+
+      - name: teste do julio
+        run: git --get user.name
