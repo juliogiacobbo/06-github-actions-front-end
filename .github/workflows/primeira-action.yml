@@ -22,13 +22,13 @@ jobs:
 
       # Runs a list files command
       - name: Run a list files
-        run: ls -la && ls
+        run: ls -la
 
       - name: teste do julio
         run: git --version
 
-      - name: teste do julio
+      - name: teste do julio 2
         run: git --get user.email
 
-      - name: teste do julio
+      - name: teste do julio 3
         run: git --get user.name
