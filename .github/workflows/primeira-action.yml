@@ -28,7 +28,7 @@ jobs:
         run: git --version
 
       - name: teste do julio 2
-        run: git --get user.email
+        run: git config --get user.name
 
       - name: teste do julio 3
-        run: git --get user.name
+        run: git config --get user.name
