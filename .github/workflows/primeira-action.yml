@@ -25,4 +25,4 @@ jobs:
         run: ls -la
 
       - name: teste do julio
-        run: ls
+        run: git --version
