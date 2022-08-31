@@ -3,11 +3,11 @@ name: "CI (Integração Continua): Primeira Action"
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   # Ativa esse fluxo de trabalho para cada push ou pull que aconetcer apontando para a branch "main"
-  push:
-    branches: [ "main" ]
-  pull_request:
-    types: [opened, synchronize]
-
+  #push:
+    #branches: [ "main" ]
+  #pull_request:
+    #types: [opened, synchronize]
+  workflow_dispatch: # Can be triggered manually through the ACTIONS tab on Github UI
 
 # Definindo o que queremos executar
 jobs:
